@@ -28,7 +28,7 @@ header .head {
   margin: 20px;
 }
 
-header .head h1 {
+header .head h2 {
   font-size: 20px;
   margin: 20px 30px;
   margin-bottom: 20px;
@@ -55,4 +55,114 @@ header .head .three .hero a{
 
 header .head .three .hero a b {
   font-weight: 600;
+}
+
+/*  main   */
+
+.six .four .two1 .first p{
+  
+  font-size: 40px;
+  margin: 45px 30px;
+  margin-bottom: 80px
+  margin-left 20px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+.six .four .two1 .first img{
+  position: absolute;
+  right: 0;
+  top: 0;
+  margin: 30px;
+  margin-top: 50px;
+}
+.six .four .two1 .first {
+  display: flex;
+  width: 565px;
+  background: #FADCD9;
+  border-radius: 30px;
+  align-items: flex-end; 
+  margin-right: 25px;
+  position: relative;
+}
+
+
+.six .four .two1 {
+  display: flex;
+
+}
+
+.six .four .two1 .second img{
+  border-radius: 30px;
+  width: 330px;
+  height: 478px;
+  
+}
+
+.six {
+  margin: 0px 25px;
+}
+
+.six .four .two2 {
+  display: flex;
+}
+
+.six .four .two2 .first {
+  background: #FADCD9;
+  width: 448px;
+  height: 351px;
+  border-radius: 30px;
+
+  margin: 20px 0;
+  position: relative;
+}
+
+.six .four .two2 .first img{
+  margin: 35px 25px;
+}  
+
+.six .four .two2 .first p {
+  
+  font-size: 20px;
+  margin: 35px 25px;
+  margin-bottom: 50px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+.six .four .two2 .first p i {
+  font-style: italic;
+}  
+.six .four .two2 .second {
+  background: #F8AFA6;
+  width: 448px;
+  height: 351px;
+  border-radius: 30px;
+  margin: 20px 20px;
+  display: flex;
+  flex-direction: column; 
+  position: relative;
+}
+
+.six .four .two2 .second p{
+  margin: 40px 40px;
+  width: 90px;
+}
+
+.six .four .two2 .second img {
+  position: absolute;
+  right: 0;
+  top: 0;
+  margin: 40px 40px;
+}
+
+.six .four .two2 .second h1{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin: 20px 40px;
+  margin-bottom: 50px;
+  font-size: 40px;
+  
 }
