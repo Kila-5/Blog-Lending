@@ -19,13 +19,16 @@ a {
 img {
   max-width: 100%;
 }
-
+br {
+  color: #000;
+}
 header .head {
   background: #FADCD9;
   display: flex;
   border-radius: 20px;
   justify-content: space-between;
   margin: 20px;
+  width: 1400px;
 }
 
 header .head h2 {
@@ -90,7 +93,7 @@ header .head .three .hero a b {
 
 .six .four .two1 {
   display: flex;
-
+  
 }
 
 .six .four .two1 .second img{
@@ -100,12 +103,51 @@ header .head .three .hero a b {
   
 }
 
+.six .four .two1 .three {
+  background: #FADCD9;
+  width: 450px;
+  height: 750px;
+  border-radius: 30px;
+  margin: 0px 25px;
+  position: relative;
+  margin-bottom: -50%;
+  z-index: 2;
+}
+
+.six .four .two1 .three hr {
+  color: #F8AFA6;
+  width: 400px;
+}
+
+.six .four .two1 .three img {
+  margin: 10px 25px;
+  border-radius: 30px;
+
+}
+.six .four .two1 .three h3 {
+  font-size: 25px;
+  margin: 40px 25px;
+}
+.six .four .two1 .three .main {
+  margin: 30px 25px;
+  font-size: 30px;
+}
+.six .four .two1 .three .strela {
+  position: absolute;
+  right: 0;
+  top: 0;
+  margin: 30px 25px;
+  width: 30px;
+  height: 30px;
+}
+
 .six {
   margin: 0px 25px;
 }
 
 .six .four .two2 {
   display: flex;
+
 }
 
 .six .four .two2 .first {
@@ -165,4 +207,30 @@ header .head .three .hero a b {
   margin-bottom: 50px;
   font-size: 40px;
   
+}
+
+.six .four .two2 {
+  position: relative;
+  width: 1400px;
+}
+
+.six .four .two2 .three {
+  position: absolute;
+  display: flex;
+  justify-content: space-around;
+  right: 0;
+  bottom: 0;
+  width: 440px;
+  background: #FADCD9;
+  border-radius: 30px;
+  margin-right: 11px;
+  height: 80px;
+  bottom: 5%;
+  
+}
+
+.six .four .two2 .three p {
+  font-size: 18px;
+  font-style: thin;
+  margin: 30px 0;
 }
